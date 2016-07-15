@@ -1,0 +1,9 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:test="/lib/test">
+
+    <a href="${it.consolePath}">
+        <img width="16" height="16" alt="[console]" tooltip="${it.displayName}" src="${rootURL}${it.iconFileName}"/>
+    </a>
+
+</j:jelly>
