@@ -30,29 +30,29 @@
 
     <name>Console Badge</name>
     <description>Console Badge for quick console access</description>
-    <url>https://github.com/noroutine/console-badge</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Console+Badge+Plugin</url>
 
     <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>http://github.com/noroutine/${project.artifactId}/blob/master/LICENSE</url>
+            <url>https://github.com/jenkinsci/console-badge-plugin/blob/master/LICENSE</url>
         </license>
     </licenses>
 
     <developers>
         <developer>
-            <id>oleksii.khilkevych</id>
+            <id>oleksii</id>
             <name>Oleksii Khilkevych</name>
-            <email>oleksiy.khilkevich@gmail.com</email>
+            <email>oleksiy@noroutine.me</email>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/noroutine/${project.artifactId}.git</connection>
-        <developerConnection>scm:git:git@github.com:noroutine/${project.artifactId}.git</developerConnection>
-        <url>http://github.com/noroutine/${project.artifactId}</url>
+        <connection>scm:git:git@github.com:jenkinsci/console-badge-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/console-badge-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/console-badge-plugin</url>
     </scm>
 
     <repositories>
