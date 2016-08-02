@@ -11,9 +11,6 @@ import javax.annotation.Nonnull;
 import java.util.Collection;
 import java.util.Collections;
 
-/**
- * Created by Oleksii Khilkevych on 7/14/16 for PAY.ON AG
- */
 public class ThatUsefulBadgeIAlwaysMissed implements BuildBadgeAction {
 
     private transient Run run;
