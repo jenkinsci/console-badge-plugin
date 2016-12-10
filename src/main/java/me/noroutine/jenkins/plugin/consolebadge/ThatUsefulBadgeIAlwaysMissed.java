@@ -35,7 +35,7 @@ public class ThatUsefulBadgeIAlwaysMissed implements BuildBadgeAction {
     }
 
     public String getConsolePath() {
-        return Integer.toString(this.run.getNumber()) + "/console";
+        return "/" + this.run.getUrl() + "console";
     }
 
     @Extension(dynamicLoadable = YesNoMaybe.YES)
